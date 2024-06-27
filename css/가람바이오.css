@@ -33,7 +33,7 @@ html {
 }
 .section01 {
     max-width: 1920px;
-    width: calc(100% - 0px);
+    width: calc(100% - 0);
     margin: 0 auto;
     position: relative;
 }
@@ -78,6 +78,7 @@ html {
 .section01 .header .inner {
     max-width: 1920px;
     width: calc(100% - 10rem);
+    
     margin: 0 auto;
 }
 .section01 .header .inner01 {
@@ -136,7 +137,7 @@ html {
 .section01 .header .inner02 .box .item {
     width: 16.66%;
     padding: 2.08% 0 0 2.08%;
-    line-height: ;
+    
 }
 .section01 .header .inner02 .box .item ul li {
     font-size: 1.8rem;
@@ -197,10 +198,12 @@ html {
     background-color: #ff0000;
 }
 .section02{
+    height: 50vw;
 }
 .section02 .inner {
     max-width: 1920px;
     width: calc(100% - 26%);
+
     margin: 0 auto;
     
 }
@@ -212,6 +215,7 @@ html {
 }
 .section02 .inner .text h2 {
     font-size: 7rem;
+    margin: 7% 0;
     
 }
 .section02 .inner .text h4 {
@@ -291,7 +295,7 @@ html {
 .section03 .box .item02 {
     width: 40%;
     height: 52vw;
-    margin-left: 8%;
+    margin: 8% 0 0 10%;
     
 }
 .section03 .box .item02 .nav ul {
@@ -299,6 +303,9 @@ html {
     align-items: center;
     gap: 2%;
     margin-bottom: 5%;
+}
+.section03 .box .item02 .nav ul li {
+    font-size: 1.6rem;
 }
 .section03 .box .item02 h1 {
     font-size: 8rem;
@@ -367,7 +374,7 @@ html {
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 1.5rem;
-    margin: 10% 20%;
+    margin: 5% 20%;
 }
     
 .section04 .wrap figure {
@@ -385,13 +392,16 @@ html {
 
 .footer {
     max-width: 1920px;
-    width: calc(100% - 20px);
+    width: calc(100% - 0rem);
     margin: 0 auto;
     text-align: center;
 }
+.footer strong {
+    font-size: 1.6rem;
+}
 .footer figure {
-    width: 5.57%;
-    height: 1.87vw;
+    width: 84px;
+    height: 35px;
     margin: 3rem auto;
 }
 .footer figure img {
@@ -425,17 +435,24 @@ html {
     margin: 0 1rem;
 }
 .footer .sns_wrap {
-    width: 60%;
-    margin:auto;
+    
+    
+    
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
+    
+    
     
 }
 .footer .sns_wrap .sns1 {
+    
+    
     display: flex;
     align-items: center;
-    margin: 0 3.12%;
+    
 }
 .footer .sns_wrap .sns1 .sns_icon {
     width: 2.3rem;
@@ -446,24 +463,34 @@ html {
     margin-left: 1.5rem;
     
 }
+
 .footer .sns_wrap .sns1 .sns_icon img {
     width: 100%;
     height: 100%;
     
 }
 .footer .sns_wrap .sns1 p {
-    margin-right: 1rem;
+    margin-right: 1.6rem;
 }
 .footer .sns_wrap .sns2 {
-    width: 17%;
-    height: 2.13vw;
+    
+}
+.footer .sns_wrap .sns2  {
+    width: 15rem;
+    height: 2.2vw;
     border: 2px solid #999;
-    margin-left: 5.2%;
+    margin-left: 10rem;
+   
 } 
-.footer .sns_wrap .sns2 span {
-    font-size: 1.2rem;
-    margin-right: 3.64%;
-    line-height: 2.13vw;
+.footer .sns_wrap .sns2 p {
+    font-size: 1rem;
+    line-height: 2.2vw;
+    text-align: center;
+    
+}
+
+.footer .sns_wrap .sns3 {
+   
 }
 .footer .sns_wrap .sns3 figure {
     width: 8rem;
